@@ -89,6 +89,8 @@ Typecasting
 int()
 str()
 float()
+bool()
+complex()
 
 """
 # a=int(input("Enter a no: "))
@@ -99,7 +101,53 @@ float()
 # print(a)
 # print(type(a))
 
-a=int(input("Enter a no: "))
-b=int(input("Enter a no:"))
-c=a+b
-print("Addition is",c)
+# a=int(input("Enter a no: "))
+# b=int(input("Enter a no:"))
+# c=a+b
+# print("Addition is",c)
+
+# you are my bestest's friend
+
+print('you are my bestest\'s friend')
+
+a= 45 #true
+a= 0
+a="python"
+b = bool(a)
+print(b ," ", a)
+print(type(b) , " " , type(a))
+
+a=56
+c=complex(a)
+print(c)
+
+a=40.56
+b=57
+c=complex(a,b)
+print(c)
+
+"""
+
+Make one form 
+Take detalils from user and then print all details
+
+name
+Roll no
+age
+class
+Address
+contact no
+department
+CGPA
+Branch
+semester
+
+
+
+"""
+
+name = input("Enter a name: ")
+roll_no = int(input("Enter roll no: "))
+
+print("Your name is ",name , "\t" , 'your Roll no is ',roll_no)
+
