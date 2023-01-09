@@ -9,8 +9,8 @@ operator -> +
 3. Relational/Conditional  Operator (< > <= >= == != )
 4. Assignment Operator (=  += -= *= /= ....)
 5. Bitwise Operator (& | ~  ^ << >>)
-6. Membership Operator
-7. Idntity Operator
+6. Membership Operator (in , not in)
+7. Idntity Operator (is , is not)
 
 
 // ++ , -- inc/ dec operator are not there.
@@ -139,7 +139,7 @@ A   B   A | B
 1   1   1
 
 ^ 
-A   B   A & B
+A   B   A ^ B
 
 0   0   0
 0   1   1
@@ -194,7 +194,23 @@ A   B   A & B
 13>>3 -  0000 0001 (1)
 13>>4 -  0000 0000 (0)
 
-(n>>m) -> n/(2^m)
+(n>>m) -> n//(2^m)
+
+
+~
+
+13 - 01101 
+
+1's complement
+
+1 0 0 1 0
+
+14 - 01110 - (10001)(1's complement) - 10010(-14)(2's complement)
+
+10001
++   1
+------
+10010
 
 """
 
@@ -207,6 +223,12 @@ print(13>>1)
 print(13>>3)
 print(13>>4)
 print(13>>28)
+
+print(15 ^ 89)
+print(32|197)
+print(15<<4)
+print(19>>3)
+print(~13)
 
 
 
