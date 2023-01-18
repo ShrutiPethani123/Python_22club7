@@ -72,7 +72,7 @@
 
     cost price (in Rs)       Tax
     >100000                  15%
-    >50000and <=100000        10%
+    >50000and <=100000       10%
     <=50000                   5% 
 
 13. Write a program to input electricity unit charge and calculate the total 
@@ -96,6 +96,31 @@
 
     total = 85
 
+14. Make one calculator.
+
+    1. Addition
+    2. Substraction
+    3. Multipication
+    4. Division
+    5. Modulus
+    6. Floor Division
+    7. Exponent
+    8. Find Area of circle
+    9. Find Area of Rectangle
+    10. INR to USD
+    11. USD to INR
+    12. celsius to fahrenheit
+    13. fahrenheit to celsius
+    
+
+15.
+
+Given an integer perform the following conditional actions:
+
+If  is odd, print Weird
+If  is even and in the inclusive range of  to 2 to 5 print Not Weird
+If  is even and in the inclusive range of  to 6 to 20 print Weird
+If  is even and greater than 20 print Not Weird
 
 """
 
