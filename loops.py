@@ -48,7 +48,7 @@ print()
    2 3 7 
 
 6. Take 10 number from user if number is divisible by 7 skip this input.
-7. 
+
 
 
 
