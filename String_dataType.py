@@ -73,3 +73,7 @@ print(str[:-1])
 print(str[2:-1])
 # print(str[2:-1:-1])
 print(str[2:-5:-1])
+
+
+str="java"
+print(str)

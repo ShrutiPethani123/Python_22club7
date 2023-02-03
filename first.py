@@ -49,6 +49,8 @@ print(type(a))
 a=4+3j
 print(a)
 print(type(a))
+print(a.real)
+print(a.imag)
 
 """
 complex=> real + img

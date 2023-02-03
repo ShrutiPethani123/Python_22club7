@@ -183,22 +183,38 @@ len = 4
 
 # LCM
 
-a=int(input("Enter a number: "))
-b=int(input("Enter a number: "))
+# a=int(input("Enter a number: "))
+# b=int(input("Enter a number: "))
 
-if a<b:
-    max=b
-else:
-    max=a
+# if a<b:
+#     max=b
+# else:
+#     max=a
 
-count=0
-i=max
-while True:
-    if i%a==0 and i%b==0:
-        lcm=i
-        break
-    i+=max
-    count+=1
+# count=0
+# i=max
+# while True:
+#     if i%a==0 and i%b==0:
+#         lcm=i
+#         break
+#     i+=max
+#     count+=1
 
-print(lcm)
-print(count)
+# print(lcm)
+# print(count)
+
+
+# n = int(input())
+# print(n % 10)
+# while (n > 10):
+#     n //= 10
+# print(n)
+
+n = int(input())
+print(n % 10)
+# while (n > 9):
+#     n //= 10
+while(n>0):
+    rem=n%10
+    n=n//10
+print(rem)
