@@ -49,7 +49,7 @@ print("Swapcase:- ",s.swapcase())
 print("caseFold:- ",s.casefold())
 
 '''
-string is immutable
+string is immutable and ordered.
 
 '''
 

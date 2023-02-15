@@ -9,8 +9,8 @@ string -> sequence of characters
 
 '''
 
-str = "Python"
-print(str)
+# str = "Python"
+# print(str)
 # print(type(str))
 
 # print(str[0])
@@ -69,11 +69,9 @@ str- Python
 # print(str[-1:-5:-1])
 # print(str[-5:-1:2])
 # print(str[-70:-2:3])
-print(str[:-1])
-print(str[2:-1])
+# print(str[:-1])
+# print(str[2:-1])
 # print(str[2:-1:-1])
-print(str[2:-5:-1])
+# print(str[2:-5:-1])
 
 
-str="java"
-print(str)
