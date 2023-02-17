@@ -68,8 +68,98 @@ print("------------------")
 print(str.rfind('try'))
 print(str.rfind('try',30))
 print(str.rfind('India',30))
-print(str.rfind('try',-2))
-print(str.rindex('try'))
+print(str.rfind('try',-4))
+
+# print(str.rindex('try'))
+
+print("---------------------")
+
+'''
+s="Java Is Best"
+s1="PYTHON"
+s2="php"
+print(s.isupper())
+print(s1.isupper())
+
+print(s.islower())
+print(s2.islower())
+
+print(s.title()) 
+print(s.istitle())  #only first letter of all word must be capital and all other must in small letter
+print(s1.istitle())
+
+'''
+s = "12235352"
+s2="NiharKhush"
+s3="22club7 dgsd"
+s4="&^%HJGJGJ"
+
+# print(s.isalnum())
+# print(s2.isalnum())
+# print(s3.isalnum())
+# print(s4.isalnum())
+
+# print(s.isalpha())
+# print(s2.isalpha())
+# print(s3.isalpha())
+# print(s4.isalpha())
+
+# print(s.isdigit())
+# print(s.isdecimal())
+# print(s.isnumeric())
+
+s1 = "9876543210"
+# s1="352.34634" - false
+s2 = "5⁴"
+s3 = "②⓪②②"
+s4 = "½"
+s5 = "二千二十二"
+
+# print(s1.isdigit())
+# print(s2.isdigit())
+# print(s3.isdigit())
+# print(s4.isdigit())
+# print(s5.isdigit())
+
+# print()
+# print(s1.isdecimal())
+# print(s2.isdecimal())
+# print(s3.isdecimal())
+# print(s4.isdecimal())
+# print(s5.isdecimal())
+
+# print()
+# print(s1.isnumeric())
+# print(s2.isnumeric())
+# print(s3.isnumeric())
+# print(s4.isnumeric())
+# print(s5.isnumeric())
+
+# s="fhsdh" - valid
+# s='233dg' 
+# s="dfds45" - valid
+# s='&asfsd'
+# s="_arestg" - valid
+# s="-werwet"
+# s="class" - valid
+# s="def" - valid
+print(s.isidentifier())
+
+# s="345"
+# s="dsgdf34534"
+s="46&^Ghgkh"
+print(s.isascii())
+print(s3.isascii())
+
+
+s = " Python is Funny Language and Everyone Enjoy it"
+print(s.split())
+print(s.split('a'))
+print(s.split('E'))
+print(s.split('a',2))
+
+print(s.rsplit('a'))
+print(s.rsplit('a',2))
 
 
 
