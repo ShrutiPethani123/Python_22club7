@@ -153,13 +153,47 @@ print(s3.isascii())
 
 
 s = " Python is Funny Language and Everyone Enjoy it"
-print(s.split())
-print(s.split('a'))
-print(s.split('E'))
-print(s.split('a',2))
+# print(s.split())
+# print(s.split('a'))
+# print(s.split('E'))
+# print(s.split('a',2))
 
-print(s.rsplit('a'))
-print(s.rsplit('a',2))
+# print(s.rsplit('a'))
+# print(s.rsplit('a',2))
+
+list = s.split()
+print(list)
+print("-".join(list))
+
+str1="java python c++ python"
+str="**"
+print(str.join(str1))
+
+print(str1.partition("y"))
+print(str1.partition("th"))
+print(str1.rpartition("th"))
+
+
+a=str1.rpartition("th")
+print(type(a))
+print("-".join(a))
+
+
+s="&&&&&&&&&&&&#############Ni&har&&&&&&&&&&&&"
+print(s.lstrip("#"))
+print(s.rstrip("&"))
+print(s.strip("&"))
+
+
+s='khush'
+print(s.zfill(8))
+print(s.zfill(6))
+
+dd = input("Enter date(dd):")
+mm = input("Enter date(dd):")
+print(f"{dd.zfill(2)} / {mm.zfill(2)} / 2023")
+
+
 
 
 
