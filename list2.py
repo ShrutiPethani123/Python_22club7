@@ -94,5 +94,29 @@ print(l5)
 l6=sorted(l5)
 print(l6)
 
+'''
+1. Take 5 number from user and add into list.
+2. Take one list from user and print sum of all element.
+3. Take one list from user and reverse that string and store that list in another list.
+4. Take one list from user and find all even numbers into list.
+5. Take two list from user and merge that two list into another list.
+
+    l1 = [1,2,3,5]
+    l2 =[6,2,3,4,5]
+    l3 =[1,2,3,5,6,2,3,4,5]
+6. Take one list from user and return list like this:
+
+    l = [2,3,4,5]
+    o/p: [4,9,16,25]
+
+7. Take one list from user and print only lower case string element.
+
+    list = ['java' , 'Python', 'JAVA','kiwi']
+    
+
+
+
+'''
+
 
 
