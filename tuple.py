@@ -55,7 +55,7 @@ print(t[2:5])
 print(t[:4])
 
 
-# change the vale of tuple
+# change the value of tuple
 
 # t[1]='Dubai'
 # print(t)
@@ -105,10 +105,10 @@ print()
 t1=(1,2,3,4,5)
 t2=('india', 'Dubai', 'Japan', 'india', 'Nepal', 'UK')
 
-t3=t1+t2
-print(t3)
+# t3=t1+t2
+# print(t3)
 
-# t3=t2*2
+# t3=t1*2
 # print(t3)
 
 # str="lamya"

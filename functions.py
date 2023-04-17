@@ -52,7 +52,7 @@ gcd: 6
 
 gcd:5
 
-5. Take two number form user and find hcf(GCD) of that two number.
+5. Take two number form user and find lcm of that two number.
 
 12: 12 24 36 48
 6: 6 12 18
